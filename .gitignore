@@ -1,0 +1,78 @@
+# ============================================================
+# .NET / C#
+# ============================================================
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.vssscc
+*.vspscc
+
+# Publicações e pacotes NuGet locais
+publish/
+*.nupkg
+*.snupkg
+packages/
+
+# Artefatos de build
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.ipdb
+
+# ============================================================
+# Testes / Cobertura
+# ============================================================
+TestResults/
+coverage/
+coverage2/
+coverFinal/
+coverage-report/
+*.cobertura.xml
+*.opencover.xml
+*.trx
+
+# ============================================================
+# Rider / JetBrains
+# ============================================================
+.idea/
+*.sln.iml
+
+# ============================================================
+# Visual Studio Code
+# ============================================================
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ============================================================
+# Docker
+# ============================================================
+# (manter docker-compose.yml no repo, ignorar apenas overrides locais)
+docker-compose.override.yml
+
+# ============================================================
+# Logs e temporários
+# ============================================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ============================================================
+# Segredos / Configurações locais
+# ============================================================
+appsettings.Local.json
+secrets.json
+.env
+.env.local
